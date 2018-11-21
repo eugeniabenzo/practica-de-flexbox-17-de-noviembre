@@ -1,0 +1,123 @@
+#logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: peru;
+    height: 15px;
+    width:32px;
+}
+.encabezado{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style: none;
+    background-color: blue;
+    height: 28px;
+    width: 1280px;
+}
+.foto{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.mision{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    }
+    .valores{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+hr{
+    border:dotted;
+    border-width: 1px;
+  }
+  .cajas{
+      display:flex;
+      flex-direction:column;
+      flex-wrap:wrap;
+      align-items: flex-start;
+      background: black;
+  }
+    .caja1{
+        border:10px black;
+        padding: white 10px;
+        height: 32px;
+        width:100px;
+        background: red
+    }
+    .caja2{
+        height:42px;
+        width:100px;
+        background: violet;
+        }
+
+    .caja3{
+
+        height: 70px;
+        width: 100px;
+        background: peru;
+    }
+    .caja4{
+        height:70px;
+        width:100px;
+        background: pink;
+    }
+    .caja5{
+        height: 70px;
+        width: 100px;
+        background: blueviolet;
+    }
+  .caja6{
+      height: 70px;
+      width: 100px;
+      background: palegreen;
+  }
+
+  .caja7{
+      height:70px;
+      width:100px;
+      background:280px;
+        
+  }
+  .caja8{
+      height:70px;
+      width: 100px;
+      background: aqua;
+  }
+  .caja9{
+      height:70px;
+      width: 100px;
+      background: cornflowerblue;
+  }
+  .caja10{
+      height: 70px;
+      width: 100px;
+      background: darkorange;
+  }
+   .columnas{
+       display:flex;
+       flex-direction: 
+       flex-wrap: wrap;
+       justify-content: space-around;
+       list-style: none;
+
+   }
+   .piedepagina{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: baseline;
+    align-content: flex-start;
+    list-style: none;
+    background-color: rgb(7, 1, 7);
+    color:white;
+    height: 38px;
+    width: 1280px;
+   }
+
