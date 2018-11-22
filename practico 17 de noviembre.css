@@ -22,7 +22,7 @@
     justify-content:center;
     flex-wrap:wrap;
 }
-.mision{
+.mision1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -33,72 +33,143 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    .Encabezado2{
+        margin-left: 355px;
+
+    }
+
+    }
 hr{
     border:dotted;
     border-width: 1px;
   }
   .cajas{
       display:flex;
-      flex-direction:column;
+      flex-direction:row;
       flex-wrap:wrap;
-      align-items: flex-start;
-      background: black;
+      align-items: center;
+      align-content: center;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      
   }
-    .caja1{
-        border:10px black;
+    .caja1{      
+        margin-top: 20px;
+        margin-left: 350px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border:20px;
         padding: white 10px;
-        height: 32px;
+        height: 70px;
         width:100px;
-        background: red
+        background: red;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 60px;
     }
     .caja2{
-        height:42px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height:70px;
         width:100px;
         background: violet;
+        text-align: center;
+        line-height: 60px;
         }
 
     .caja3{
-
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
         height: 70px;
         width: 100px;
         background: peru;
+        text-align: center;
+        line-height: 60px;
     }
     .caja4{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
         height:70px;
         width:100px;
         background: pink;
+        text-align: center;
+        line-height: 60px;
     }
     .caja5{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 190px;
+        margin-bottom: 20px;
         height: 70px;
         width: 100px;
         background: blueviolet;
+        text-align: center;
+        line-height: 60px;
     }
   .caja6{
+      margin-top: 20px;
+      margin-left: 350px;
+      margin-right: 20px;
+      margin-bottom: 20px;
       height: 70px;
       width: 100px;
       background: palegreen;
+      text-align: center;
+      line-height: 60px;
   }
 
   .caja7{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
       height:70px;
       width:100px;
-      background:280px;
+      background: yellowgreen 280px;
+      text-align: center;
+      line-height: 60px;
         
   }
   .caja8{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
       height:70px;
       width: 100px;
       background: aqua;
+      text-align: center;
+      line-height: 60px;
   }
   .caja9{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
       height:70px;
       width: 100px;
       background: cornflowerblue;
+      text-align: center;
+      line-height: 60px;
   }
   .caja10{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
       height: 70px;
       width: 100px;
       background: darkorange;
+      text-align: center;
+      line-height: 60px;
   }
    .columnas{
        display:flex;
