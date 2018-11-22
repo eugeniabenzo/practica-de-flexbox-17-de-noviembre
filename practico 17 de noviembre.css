@@ -172,16 +172,15 @@ hr{
   }
    .columnas{
        display:flex;
-       flex-direction: 
-       flex-wrap: wrap;
-       justify-content: space-around;
+       flex-direction: column;
+       justify-content: space-evenly;
        list-style: none;
 
    }
    .piedepagina{
     display:flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:;
     align-items: baseline;
     align-content: ;
     list-style: none;
